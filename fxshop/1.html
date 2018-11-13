@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul id='click'>
+        <li data-one="1">1</li>
+        <li data-one="2">2</li>
+        <li data-one="3">3</li>
+        <li data-one="4">4</li>
+    </ul>
+    <script>
+        var ul=document.getElementById('click');
+        ul.onclick=function(e){
+            console.log(e.target.dataset.one)
+        }
+    </script>
+</body>
+</html>
+
+

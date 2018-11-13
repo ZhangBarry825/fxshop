@@ -1,0 +1,20 @@
+html{touch-action:manipulation;font-size:calc(3vw);}
+dl,dd{margin:0;}
+ul{margin:0;padding:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,p{margin:0;font-weight:normal;}
+em,b{font-style:normal;}
+input[type='button'],input[type='reset'],input[type='submit'],button,select{
+  -webkit-appearance:none;
+  -webkit-tap-highlight-color:transparent;
+  padding:0;margin:0;outline:none;
+}
+button{border:none;}
+input::-webkit-input-placeholder{white-space:normal;font-size:1.4rem;}
+input[disabled]{
+  background-color:transparent;
+}
+a{
+  text-decoration:none;-webkit-appearance:none;-webkit-tap-highlight-color:transparent;color: #222;
+}
+button:focus, input:focus { outline: none; }

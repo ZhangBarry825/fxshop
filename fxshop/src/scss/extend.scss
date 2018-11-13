@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import "variable.scss";
+// reset
+// 公共header
+div.vux-header{
+    background: #fff;
+    z-index: 2;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    .vux-header-title{
+        color: #000;
+    }
+    .left-arrow{
+        background: url(/static/images/back_top.png) no-repeat left center;
+        background-size: 1.8rem;
+        &:before{
+            display: none;
+        }
+    
+    }
+}
+// 列表为空
+.list_no{
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: #666;
+    font-size: 1.2rem;
+    padding-top: 8rem;
+
+    .list_ico{
+        display: block;
+        width: 38%;
+        margin: 0 auto 20px;
+    }
+}
+
+// 表单 （group）
+.g_formGroup{
+    .weui-cells{
+        margin-top: 0;
+    }
+}
+
+.okButton {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+// tab reset
+div.tab_list{
+    .vux-tab{
+        .vux-tab-selected{
+            color: $mc;
+        }
+        .vux-tab-ink-bar{
+            background: $mc;
+        }
+        .vux-tab-bar-inner{
+            background: $mc;
+        }
+    }
+    
+}
