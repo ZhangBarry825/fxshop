@@ -5,7 +5,7 @@
         </keep-alive>
         <router-view v-if="!$route.meta.keepAlive"></router-view>
         <ul class="tabBar-box">
-            <router-link tag="li" class="routerLink" active-class="active" to="/index"><em>商城</em></router-link>
+            <router-link tag="li" class="routerLink" active-class="active" to="/index"><em>表单</em></router-link>
             <router-link tag="li" class="routerLink" active-class="active" to="/my"><em>我的</em></router-link>
         </ul>
     </div>

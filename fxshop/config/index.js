@@ -11,13 +11,13 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/apis': {    //将www.exaple.com印射为/apis
-        target: 'http://192.168.0.101:8080/',  // 接口域名
+      '/api': {    //将www.exaple.com印射为/apis
+        // target: 'http://192.168.0.101:8080/',  // 接口域名
         // target: 'http://192.168.43.38:8080/',  // 接口域名
-        // target: 'http://www.dpjys.com.cn/',  // 接口域名
-        changeOrigin: false,  //是否跨域
+        target: 'http://www.dpjys.com.cn/',  // 接口域名
+        changeOrigin: true,  //是否跨域
         pathRewrite: {
-          '^/apis': ''   //需要rewrite的,
+          '^/api': ''   //需要rewrite的,
         }
       }
     },
