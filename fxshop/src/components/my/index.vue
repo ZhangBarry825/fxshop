@@ -64,7 +64,12 @@ export default {
                     title:"常用地址",
                     icon:require('../../../static/images/address.png'),
                     link:'/address'
-                }
+                },
+              {
+                title:"提交记录",
+                icon:require('../../../static/images/refund.png'),
+                link:'/submitlist'
+              }
                 // {
                 //     title:"退款售后",
                 //     icon:require('../../../static/images/refund.png'),

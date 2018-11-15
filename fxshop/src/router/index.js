@@ -127,6 +127,14 @@ var router = new Router({
     {
       path: '*',
       redirect: '/index'
+    },
+    {
+      path:'/submitlist',
+      name:'submitlist',
+      component:()=>import('@/components/my/submitlist'),
+      meta:{
+        title:'提交记录'
+      }
     }
   ]
 })
