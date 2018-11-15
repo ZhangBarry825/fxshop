@@ -10,14 +10,16 @@
     <!-- <div class="shop-content">
       <div class="shop-search" @click="pr('/search')">搜索</div>
     </div> -->
-    <div v-if="nopro" style="width:100%;padding:4rem 0;text-align:center;background-color:#fff;font-size:1.4rem;">暂无商品</div>
-    <shoplist v-if="!nopro" v-bind:goods="shopList" style="margin-top:1rem;"></shoplist>
+    <!--<div v-if="nopro" style="width:100%;padding:4rem 0;text-align:center;background-color:#fff;font-size:1.4rem;">暂无商品</div>-->
+    <!--<shoplist v-if="!nopro" v-bind:goods="shopList" style="margin-top:1rem;"></shoplist>-->
+    <formsubmit></formsubmit>
   </div>
 </template>
 
 <script>
 import { Swiper } from "vux";
 import shoplist from "./shoplist.vue";
+import formsubmit from "./formsubmit.vue";
 export default {
   activated() {
     if (this.shopList.length == 0) {
@@ -70,7 +72,8 @@ export default {
   },
   components: {
     Swiper,
-    shoplist
+    shoplist,
+    formsubmit
   }
 };
 </script>

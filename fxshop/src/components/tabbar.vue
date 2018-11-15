@@ -14,6 +14,7 @@
 <style lang="scss" type="text/scss" scoped>
 @import "../scss/variable.scss";
 .tabBar-box{
+  z-index: 1000;
     position:fixed;
     bottom:0;
     left:0;
