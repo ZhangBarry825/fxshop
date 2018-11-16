@@ -50,7 +50,7 @@
             </ul>
             <div class="weui-uploader__input-box" @click="selectPic(1)" v-show="!picOne">
               <input id="uploaderInputOne" class="weui-uploader__input" @change="changePic(1)" type="file"
-                     accept="image/*" capture="camera" multiple="">
+                     accept="image/*"  multiple="">
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
             </ul>
             <div class="weui-uploader__input-box" @click="selectPic(2)" v-show="!picTwo">
               <input id="uploaderInputTwo" class="weui-uploader__input" @change="changePic(2)" type="file"
-                     accept="image/*" capture="camera" multiple="">
+                     accept="image/*"  multiple="">
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
             </ul>
             <div class="weui-uploader__input-box" @click="selectPic(3)" v-show="!picThree">
               <input id="uploaderInputThree" class="weui-uploader__input" @change="changePic(3)" type="file"
-                     accept="image/*" capture="camera" multiple="">
+                     accept="image/*"  multiple="">
             </div>
           </div>
         </div>
